@@ -1,94 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/* dark background color (hero and footer)
+#1F2937
+
+Hero Main text (* This website is awesome)
+48px extra-bold #F9FAF8
+
+Hero Secondary text, Header Link Text
+18px #E5E7EB
+
+Header Logo Text 
+24px #F9FAF8 */
+
 * {
-    font-family: Roboto;
+    color: #fff;
 }
-/* Header Container */
-.header {
+h1 {
+    color: #F9FAF8;
+    /* background-color: #1F2937; */
+    font-size: 24px;
+}
+
+body {
     background-color: #1F2937;
-    color: white;
-    border: 2px solid red;
-    margin: 5px;
-    display: flex;
-
-}
-.header-logo {
-    border: 2px solid red;
-    margin: 5px;
-}
-
-.header-body {
-    border: 2px solid red;
-    margin: 5px;
-}
-.hero-main-text {
-    font-size: 48px;
-    font-style: extra bold;
-
 }
 
 a {
-    color: white;
-    border: 2px solid violet;
-}
-
-/* Body Container */
-.body {
-    border: 2px solid blue;
-    margin: 5px;
-}
-
-.body-top {
-    border: 2px solid blue;
-    margin: 5px;
-}
-
-.body-bottom {
-    background-color: #E5E7EB;
-    border: 2px solid blue;
-    margin: 5px;
-}
-
-.quote-text {
-    font-size: 36px;
-    font-weight: light;
-    font-style: italic;
-}
-
-.thor {
-    font-size: 24px;
-    font-weight: bolder;
-}
-
-/* Footer Container */
-
-.footer {
-    border: 2px solid greenyellow;
-    margin: 5px;
-}
-
-.call-to-action {
-    border: 2px solid magenta;
-    color: white;
-    background-color: #3882F6;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    margin: 10px;
 
 }
 
-.copyright {
-    color: white;
-    background-color: #1F2937;
-    border: 2px solid greenyellow;
+img {
+    height: 300px;
+    width: 300px;
+}
+
+.images {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.header,
+.footer {
+    font-size: 18px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-.button-two {
-    color: white;
-    background-color: #3882F6;
-    border: 2px solid white;
-    border-radius: 5px;
-    padding: 5px 30px;
-    text-align: color;
-    display: inline-block;
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
 }
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    color: white;
+    background-color: blue;
+    border-color: white;
+    border-radius: 5px;
+}
+
